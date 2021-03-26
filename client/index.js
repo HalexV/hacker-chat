@@ -1,4 +1,32 @@
+#!/usr/bin/env node
+
 /*
+  chmod +x index.js
+*/
+
+/*
+
+// deletar do heroku
+heroku apps:delete
+
+npm i -g @halexv/hacker-chat-client
+
+// retirar do npm
+npm unpublish --force
+
+// retirar o comando global
+npm unlink -g @halexv/hacker-chat-client
+
+hacker-chat \
+  --username erickwendel \
+  --room sala01
+
+./node index.js
+bash node index.js
+bash ./index.js \
+  --username erickwendel \
+  --room sala01
+
 node index.js \
   --username erickwendel \
   --room sala01 \
